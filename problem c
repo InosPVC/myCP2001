@@ -1,2 +1,0 @@
-// oct and 10進法 detector 
-bool f(int n,int p){return n?n%p==7|f(n/p,p):false;} // digits want to detect , base
