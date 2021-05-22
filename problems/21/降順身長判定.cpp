@@ -1,3 +1,5 @@
+// 配列にMAX を拾う、
+// MAX が次のより要素大きい→　RETURN NO 
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
