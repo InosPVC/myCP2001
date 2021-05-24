@@ -51,3 +51,13 @@ bool isPrime(int n)
 
     return true;
 }
+
+// find closest prime number
+  int x;
+  cin>>x;
+ 
+  int p=x;
+  while(!is_prime(p)) p++; 
+cout << p; 
+ 
+  }
