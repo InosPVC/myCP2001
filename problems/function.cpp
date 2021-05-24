@@ -61,3 +61,16 @@ bool isPrime(int n)
 cout << p; 
  
   }
+
+// 2nd place by matching 2 opponents 
+// 2
+// 1 4 2 5
+// won player = 2 (4 biggest power) 
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+  int n; cin >> n; int m = 1 << n;
+  vector<pair<int,int>> a(m);
+  for (int i=0; i<m; ++i){ int x; cin >> x; a[i] = {x,i+1}; }
+  cout << min(*max_element(a.begin(),a.begin()+m/2),*max_element(a.begin()+m/2,a.end())).second << endl;
+}
