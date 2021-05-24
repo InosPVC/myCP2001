@@ -1,0 +1,8 @@
+// N= A X B + C 組 N = 6  
+// N = (1,2,3)
+#include<iostream>
+int main(){
+	int n,ans = 0;std::cin>>n;
+	for(int i=1;i<n;i++) ans += (n-1)/i;
+	std::cout<<ans<<"\n";
+}
