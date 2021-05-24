@@ -13,6 +13,9 @@ reverse(t.begin(), t.end());
 
 // 最終結果を固定したほうが複雑性が生まれない
 
+// ｘの次の100の倍数までいくには、何歩 x = 140 
+100 - (x % 100); // 100 - 40 = 60 
+
 // decimal to octal (base of 8) converter
 string to_oct(int n){
   string s;
