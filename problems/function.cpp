@@ -22,6 +22,9 @@ const double pi=acos(-1.0)
 // circumference + precision 20 
 :setprecision(20)<<std::fixed<<pi;
 
+// calculate discount product a,b price
+100 * (1 - B / A); 
+
 // decimal to octal (base of 8) converter
 string to_oct(int n){
   string s;
