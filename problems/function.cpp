@@ -16,6 +16,12 @@ reverse(t.begin(), t.end());
 // ｘの次の100の倍数までいくには、何歩 x = 140 
 100 - (x % 100); // 100 - 40 = 60 
 
+//pi #include <iomanip>#include <math.h>
+const double pi=acos(-1.0)
+  
+// circumference + precision 20 
+:setprecision(20)<<std::fixed<<pi;
+
 // decimal to octal (base of 8) converter
 string to_oct(int n){
   string s;
