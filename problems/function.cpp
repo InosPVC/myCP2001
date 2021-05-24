@@ -78,3 +78,18 @@ int main(){
 //decimal 12
     printf("%.12f\n", (double)L * L * L / 27);
 
+
+// make pre element equal and lower than next element
+long long  n; cin >> n; 
+    long long pre = 0;
+    long long cnt = 0;
+    for (int i = 1; i <= n; i++) {
+        long long x; cin >> x;
+      
+        if (x > pre) {
+            pre = x; 
+        }
+        else {
+            cnt += pre - x; 
+        }
+      cout << cnt ;
