@@ -8,6 +8,11 @@ count(a.begin() , a.end(), "x++");
 string str = "04037"
 str.find("7") != string::npos -> yes 
 
+// sort string reverse 234 -> 432
+reverse(t.begin(), t.end());
+
+// 最終結果を固定したほうが複雑性が生まれない
+
 // decimal to octal (base of 8) converter
 string to_oct(int n){
   string s;
