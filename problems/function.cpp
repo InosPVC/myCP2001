@@ -74,3 +74,7 @@ int main(){
   for (int i=0; i<m; ++i){ int x; cin >> x; a[i] = {x,i+1}; }
   cout << min(*max_element(a.begin(),a.begin()+m/2),*max_element(a.begin()+m/2,a.end())).second << endl;
 }
+
+//decimal 12
+    printf("%.12f\n", (double)L * L * L / 27);
+
