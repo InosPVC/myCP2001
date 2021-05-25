@@ -5,3 +5,9 @@ vector<int> enumdiv(int n) {
     sort(S.begin(), S.end());
     return S;
 }
+
+//nが8個の約数をもち　かつ　奇数である。
+rep(i, 1, N + 1) if (i % 2 == 1) {
+        auto ed = enumdiv(i);
+        if (ed.size() == 8) ans++; //約数が8個なら、1を追加
+    }
