@@ -1,17 +1,12 @@
-// frog cost  
-int N, H[101010], dp[101010];
-//---------------------------------------------------------------------------------------------------
-void _main() {
-    cin >> N;
-    rep(i, 0, N) cin >> H[i];
-    
-    rep(i, 0, N) dp[i] = inf;
-    dp[0] = 0;
+// chmin
+template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
+template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
  
-    rep(i, 0, N) {
-        chmin(dp[i + 1], dp[i] + abs(H[i] - H[i + 1]));
-        chmin(dp[i + 2], dp[i] + abs(H[i] - H[i + 2]));
-    }
- 
-    cout << dp[N - 1] << endl;
-}
+https://blog.hamayanhamayan.com/entry/2019/01/08/225228
+
+//all  dp[i] = inf;
+// dp[0] = 0;
+//// chmin ai+1	ai + hi - hi+1
+// chmin ai+1	ai + hi - hi+2
+
+// cout dp[N - 1] //last dp value
