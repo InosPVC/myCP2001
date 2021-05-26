@@ -11,3 +11,33 @@ rep(i, 1, N + 1) if (i % 2 == 1) {
         auto ed = enumdiv(i);
         if (ed.size() == 8) ans++; //約数が8個なら、1を追加
     }
+
+// gcd
+int gcd(int x, int y) {
+    int m = min(x, y);
+    for(int d=m; d>0; d--) {
+        if(x % d == 0 && y % d == 0) {
+            return d;
+        }
+    }
+}
+
+// lcm
+int n1 , n2 ,max ;
+cin >> n1 >> n2;
+    
+    // maximum value between n1 and n2 is stored in max
+    max = (n1 > n2) ? n1 : n2;
+
+    do
+    {
+        if (max % n1 == 0 && max % n2 == 0)
+        {
+            cout << "LCM = " << max;
+            break;
+        }
+        else
+            ++max;
+    } while (true);
+    
+    return 0;
