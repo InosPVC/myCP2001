@@ -1,3 +1,6 @@
+// lcm latest c++ version 
+lcm(A, B)
+
 // enumdiv(int n)  =  nの約数の配列を返す = nが約数いくつ？
 vector<int> enumdiv(int n) { 
     vector<int> S;
