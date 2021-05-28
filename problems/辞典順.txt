@@ -1,6 +1,0 @@
-D - aab aba baa 
-2 2 4
-IN : 4 番目
-aabb-> abab -> abba -> 4 番目"baab" ->baba
-out : baab 
-
