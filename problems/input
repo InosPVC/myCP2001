@@ -1,0 +1,3 @@
+string name; 
+	getline(cin, name); 
+	cout << name;
