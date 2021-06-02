@@ -1,0 +1,3 @@
+// palindrome checker if one character of string is not same
+// from left to middle ,, from  right to middle 
+if (s[i] != s[s.size() - i - 1] && i < s.size() - i - 1) ans ++ ; 
