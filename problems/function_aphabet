@@ -1,0 +1,7 @@
+print alphabet
+    
+    for (c = 'A'; c <= 'Z'; ++c)
+
+print alphabet by number
+C	putchar('A' + 3);
+B	putchar('A' + 2);
