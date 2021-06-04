@@ -1,3 +1,7 @@
 // palindrome checker if one character of string is not same
 // from left to middle ,, from  right to middle 
 if (s[i] != s[s.size() - i - 1] && i < s.size() - i - 1) ans ++ ; 
+
+//  if char or string is a digit 
+// returns 0 or 1 
+isdigit(s[i])
