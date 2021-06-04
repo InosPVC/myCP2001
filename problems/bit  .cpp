@@ -1,3 +1,7 @@
+int to bit 
+// cout << bitset<8>(134);
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
